@@ -1,0 +1,66 @@
+{
+  "name": "soumit-blog123",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "npm i && vue-cli-service serve",
+    "build": "npm i && vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "prod-build": "npm i && vue-cli-service build --prod --aot"
+  },
+  "dependencies": {
+    "@kyvg/vue3-notification": "^2.3.4",
+    "@popperjs/core": "^2.11.4",
+    "bootstrap": "^5.1.1",
+    "bootstrap-vue": "^2.21.2",
+    "config.js": "^0.1.0",
+    "core-js": "^3.6.5",
+    "nprogress": "^0.2.0",
+    "vue": "^3.2.26"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "axios": "^0.21.4",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^7.0.0",
+    "i": "^0.3.6",
+    "npm": "^7.23.0",
+    "underscore": "^1.13.1",
+    "vue-axios": "^3.3.6",
+    "vue-router": "^4.0.11",
+    "vue-soumit-button": "^0.0.2",
+    "vue-soumit-dropdown": "^0.0.5",
+    "vue-sweetalert2": "^5.0.2",
+    "vue-underscore": "^0.1.4",
+    "vue3-datepicker": "^0.3.1"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {
+      "no-console": 1,
+      "no-debugger": 1
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "optionalDependencies": {
+    "fsevents": "^2.3.2"
+  }
+}
